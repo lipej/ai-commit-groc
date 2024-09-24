@@ -6,7 +6,7 @@ This project provides a tool to automatically generate concise and informative c
 
 1. Install this lib with npm `npm install -g git-commit-groc`.
 2. Add your Groq API key to your environment variables as `GROQ_API_KEY`.
-3. Run with the following command: `git-commit-groc`. You can optionally specify a Groq model using the `-m` or `--model` flag, e.g., `git-commit-groc -m llama3-groq-70b-8192-tool-use-preview`.
+3. Run with the following command: `aicommit`. You can optionally specify a Groq model using the `-m` or `--model` flag, e.g., `aicommit -m llama3-groq-70b-8192-tool-use-preview`.
 
 ## How it works
 
