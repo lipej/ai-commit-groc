@@ -59,5 +59,7 @@ const options = yargs
 
   const { commit } = JSON.parse(jsonrepair(result.choices[0].message.content));
 
+  console.info(`Commit message: ${commit}`);
+
   execSync(`git commit -m "${commit}"`);
 })();
