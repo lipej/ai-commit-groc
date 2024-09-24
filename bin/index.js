@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const yargs = require("yargs");
 const { execSync } = require("child_process");
 const Groq = require("groq-sdk");
