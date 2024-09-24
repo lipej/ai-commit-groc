@@ -1,0 +1,17 @@
+{
+  "name": "git-commit-groc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "aicommit": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "groq-sdk": "^0.7.0",
+    "jsonrepair": "^3.8.1",
+    "yargs": "^17.7.2"
+  }
+}
